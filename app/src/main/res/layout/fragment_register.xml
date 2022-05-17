@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/karyawan"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner"
+        android:gravity="center"
+        android:hint="Username"
+        android:id="@+id/edt_usernameReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner"
+        android:gravity="center"
+        android:hint="Email"
+        android:id="@+id/edt_emailReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner"
+        android:gravity="center"
+        android:hint="Password"
+        android:id="@+id/edt_passwordReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <EditText
+        android:textSize="15sp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/corner"
+        android:gravity="center"
+        android:hint="Kondirmasi Password"
+        android:id="@+id/edt_UlangPasswordReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <Button
+        android:textSize="15sp"
+        android:id="@+id/btn_register"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
